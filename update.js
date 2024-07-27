@@ -17,7 +17,7 @@ const sch = new mongoose.Schema({
     name: String,
     email: String,
     id: Number
-});
+},{ versionKey: false});
 
 const Monmodel = mongoose.model("studentLists", sch);
 
